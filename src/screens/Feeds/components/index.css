@@ -1,0 +1,164 @@
+@media only screen and (min-width: 1024px) {
+  .feed-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: white; }
+  .feed-container .content_letter {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "Gothic A1";
+    font-weight: 400; }
+  .feed-container .avatar-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black; }
+  .feed-container .avatar-section .avatar-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .feed-container .avatar-section .avatar-img img {
+    border-radius: 30px; }
+  .feed-container .avatar-section .title_name-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px; }
+  .feed-container .avatar-section .title_name-section .feed_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px; }
+  .feed-container .avatar-section .title_name-section .feed_user {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0px; }
+  .post_content {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    resize: none; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .feedListResponsive {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: inline-flex; }
+  .feed-container {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: white; }
+  .feed-container .content_letter {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "Gothic A1";
+    font-weight: 400; }
+  .feed-container .avatar-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black; }
+  .feed-container .avatar-section .avatar-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .feed-container .avatar-section .avatar-img img {
+    border-radius: 30px; }
+  .feed-container .avatar-section .title_name-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px; }
+  .feed-container .avatar-section .title_name-section .feed_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px; }
+  .feed-container .avatar-section .title_name-section .feed_user {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0px; }
+  .post_content {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    resize: none; } }
+
+@media only screen and (min-width: 300px) and (max-width: 765px) {
+  .feedListResponsive {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: inline-flex; }
+  .feed-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: white; }
+  .feed-container .content_letter {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: "Gothic A1";
+    font-weight: 400; }
+  .feed-container .avatar-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black; }
+  .feed-container .avatar-section .avatar-img {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  .feed-container .avatar-section .avatar-img img {
+    border-radius: 30px; }
+  .feed-container .avatar-section .title_name-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px; }
+  .feed-container .avatar-section .title_name-section .feed_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px; }
+  .feed-container .avatar-section .title_name-section .feed_user {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0px; }
+  .post_content {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    resize: none; } }
