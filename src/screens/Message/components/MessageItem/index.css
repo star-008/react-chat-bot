@@ -1,0 +1,35 @@
+.bubble {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #979797;
+}
+.image {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.message-left {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  word-break: break-all;
+}
+.message-left .bubble {
+  background: white;
+}
+.message-right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  word-break: break-all;
+}
+.message-right .bubble {
+  background: #d8d8d8;
+}
+.avatar {
+  border-radius: 30px;
+}
