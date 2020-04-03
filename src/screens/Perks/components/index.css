@@ -1,0 +1,24 @@
+.filter_tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 15px; }
+  .filter_tab button {
+    background: white; }
+  .filter_tab button:hover {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2); }
+
+.imageStyleFirst {
+  height: 50px;
+  margin-left: 381px;
+  margin-top: 5%; }
+
+.imageStyle {
+  height: 50px;
+  margin-left: 4%;
+  margin-top: 5%; }
+
+img {
+  height: 100%; }

@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .content .row_item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; }
+    .content .row_item p {
+      font-style: italic;
+      font-size: 19px;
+      margin: 0px 10px; }

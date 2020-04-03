@@ -1,0 +1,284 @@
+.message-input-container {
+  width: 100%;
+  margin-top: auto;
+  z-index: 100;
+  position: relative; }
+  .message-input-container .message-input-wrapper {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: -1em;
+    padding: 1em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: top 300ms;
+    animation-name: fadeIn;
+    animation-duration: 700ms; }
+    .message-input-container .message-input-wrapper.nation div .nationality {
+      width: 80%;
+      border-radius: 14px;
+      border: none;
+      background-color: #ffffff;
+      -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 6px -4px rgba(0, 0, 0, 0.2);
+      -webkit-transition: all 400ms;
+      -o-transition: all 400ms;
+      transition: all 400ms;
+      font-family: Graphik;
+      font-size: 16px;
+      color: #555;
+      height: 2em; }
+    .message-input-container .message-input-wrapper.choice div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .message-input-container .message-input-wrapper.choice div .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around; }
+        .message-input-container .message-input-wrapper.choice div .row button {
+          width: 100%;
+          margin: 10px;
+          border-radius: 10px;
+          background-color: transparent;
+          border: none;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+      .message-input-container .message-input-wrapper.choice div .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 501px; }
+        .message-input-container .message-input-wrapper.choice div .gallery button {
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+          border-radius: 10px;
+          background-color: transparent;
+          border: none;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); }
+      @media screen and (max-width: 768px) {
+        .message-input-container .message-input-wrapper.choice div .gallery {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 340px; }
+          .message-input-container .message-input-wrapper.choice div .gallery button {
+            width: 90px;
+            height: 90px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: transparent;
+            border: none;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); } }
+    .message-input-container .message-input-wrapper.toggleButton {
+      display: block; }
+      .message-input-container .message-input-wrapper.toggleButton hr {
+        border: 1px solid #ffffff66; }
+      .message-input-container .message-input-wrapper.toggleButton .message-item-wrapper {
+        max-width: 100%;
+        margin-bottom: 1.5em; }
+        .message-input-container .message-input-wrapper.toggleButton .message-item-wrapper .message {
+          padding-left: 20px;
+          padding-right: 20px;
+          text-align: center;
+          background-color: #ffffff;
+          color: #0b0b0b;
+          cursor: pointer;
+          font-weight: 500; }
+    .message-input-container .message-input-wrapper.yesno {
+      display: block; }
+      .message-input-container .message-input-wrapper.yesno hr {
+        border: 1px solid #ffffff66; }
+      .message-input-container .message-input-wrapper.yesno .message-item-wrapper {
+        max-width: 100%;
+        margin-bottom: 1.5em; }
+        .message-input-container .message-input-wrapper.yesno .message-item-wrapper .message {
+          width: 120px;
+          text-align: center;
+          background-color: #ffffff;
+          color: #0b0b0b;
+          cursor: pointer;
+          text-transform: capitalize; }
+    .message-input-container .message-input-wrapper.select {
+      padding-bottom: 0;
+      margin-bottom: -1em; }
+      .message-input-container .message-input-wrapper.select .button-wrapper {
+        margin-bottom: 1em; }
+    .message-input-container .message-input-wrapper.leaving {
+      top: 500px; }
+    .message-input-container .message-input-wrapper .message-array {
+      display: flex;
+      flex: 1; }
+      .message-input-container .message-input-wrapper .message-array .message {
+        flex: 1;
+        margin-right: 1em; }
+        .message-input-container .message-input-wrapper .message-array .message:last-child {
+          margin-right: 0; }
+        .message-input-container .message-input-wrapper .message-array .message.message-static {
+          width: auto; }
+    .message-input-container .message-input-wrapper .message-static {
+      cursor: pointer;
+      background-color: #ffffff;
+      color: #0b0b0b;
+      font-weight: 600;
+      width: 100%;
+      text-align: center; }
+      .message-input-container .message-input-wrapper .message-static.notbolt {
+        background-color: #ffffff;
+        color: #0b0b0b; }
+    .message-input-container .message-input-wrapper div .message-input-container {
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      .message-input-container .message-input-wrapper div .message-input-container input,
+      .message-input-container .message-input-wrapper div .message-input-container .send-button {
+        padding: 1em 1.4em;
+        border-radius: 4em;
+        box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.2); }
+      .message-input-container .message-input-wrapper div .message-input-container .phone {
+        margin-left: -100px;
+        padding-left: 110px;
+        font-family: "Graphik", sans-serif; }
+      .message-input-container .message-input-wrapper div .message-input-container .agentphone {
+        margin-left: -50px;
+        padding-left: 50px;
+        font-family: "Graphik", sans-serif; }
+      .message-input-container .message-input-wrapper div .message-input-container .salary {
+        margin-left: -50px;
+        padding-left: 50px;
+        font-family: "Graphik", sans-serif; }
+      .message-input-container .message-input-wrapper div .message-input-container .company_site {
+        padding-left: 105px;
+        width: 80%;
+        font-family: "Graphik", sans-serif; }
+      .message-input-container .message-input-wrapper div .message-input-container .year {
+        margin-right: -100px;
+        padding-right: 50px;
+        font-family: "Graphik", sans-serif; }
+      .message-input-container .message-input-wrapper div .message-input-container p {
+        font-size: 1em;
+        margin-left: 50px;
+        font-family: "Graphik", sans-serif;
+        margin-bottom: 0px;
+        z-index: 100;
+        line-height: 1; }
+      .message-input-container .message-input-wrapper div .message-input-container input {
+        background-color: #ffffff;
+        outline: none;
+        border: none;
+        flex: 1;
+        font-size: 1em; }
+      .message-input-container .message-input-wrapper div .message-input-container .send-button {
+        margin-left: 1em;
+        padding: 1em 1.6em;
+        background-color: #000;
+        color: #ffffff;
+        font-weight: 600;
+        opacity: 1;
+        transition: opacity 0.15s; }
+        .message-input-container .message-input-wrapper div .message-input-container .send-button.disabled {
+          opacity: 0.8; }
+        .message-input-container .message-input-wrapper div .message-input-container .send-button.notbolt {
+          background-color: #000;
+          color: #ffffff; }
+    .message-input-container .message-input-wrapper .message-input-container {
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      .message-input-container .message-input-wrapper .message-input-container input,
+      .message-input-container .message-input-wrapper .message-input-container .send-button {
+        padding: 1em 1.4em;
+        border-radius: 4em;
+        box-shadow: 0 0px 4px 0px rgba(0, 0, 0, 0.2); }
+      .message-input-container .message-input-wrapper .message-input-container .cuisine-card {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 270px;
+        padding: 1em 1.4em;
+        border-radius: 4em;
+        color: #000;
+        background-color: white;
+        font-weight: 300;
+        opacity: 1;
+        transition: opacity 0.15s; }
+        .message-input-container .message-input-wrapper .message-input-container .cuisine-card .logo-part {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between; }
+      .message-input-container .message-input-wrapper .message-input-container input {
+        background-color: #f6f6f6;
+        outline: none;
+        border: none;
+        flex: 1;
+        font-size: 1em; }
+      .message-input-container .message-input-wrapper .message-input-container .send-button {
+        margin-left: 1em;
+        padding: 1em 1.6em;
+        background-color: #000;
+        color: #ffffff;
+        font-weight: 600;
+        opacity: 1;
+        transition: opacity 0.15s; }
+        .message-input-container .message-input-wrapper .message-input-container .send-button.disabled {
+          opacity: 0.8; }
+        .message-input-container .message-input-wrapper .message-input-container .send-button.notbolt {
+          background-color: #000;
+          color: #ffffff; }
+      .message-input-container .message-input-wrapper .message-input-container .addressbox {
+        display: "flex";
+        flex-direction: "column";
+        width: 250px;
+        padding: 15px;
+        border-radius: 20px;
+        border: 2px solid #f6f6f6; }
+        .message-input-container .message-input-wrapper .message-input-container .addressbox .address {
+          border: 0;
+          border-bottom: 1px solid #f6f6f6;
+          outline: 0;
+          border-width: 0 0 2px;
+          border-radius: 0;
+          background: transparent;
+          box-shadow: unset;
+          padding: 10px; }
+
+.swal-overlay .swal-modal .swal-footer .swal-button-container .swal-button--confirm {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  padding: 1em 1.6em;
+  border-radius: 4em; }
+
+.message-input-outer {
+  flex: 1;
+  width: 100%; }
+  .message-input-outer .button {
+    max-width: 12em;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 4em;
+    padding: 1em;
+    font-size: 15px;
+    background-color: #f6f6f6;
+    color: #152439;
+    font-weight: 600;
+    opacity: 1;
+    -webkit-transition: opacity 0.15s;
+    -o-transition: opacity 0.15s;
+    transition: opacity 0.15s;
+    box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2); }
+
+.hidden-email-text {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: -1em;
+  margin-top: 1em;
+  opacity: 0.6; }
